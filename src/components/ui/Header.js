@@ -18,7 +18,7 @@ import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/seherlogo.png";
 
 function ElevationScroll(props) {
   const { children } = props;
@@ -46,11 +46,14 @@ const useStyles = makeStyles((theme) => ({
   },
   logo: {
     height: "8em",
+    width: "8rem",
     [theme.breakpoints.down("md")]: {
       height: "7em",
+      width: "7rem",
     },
     [theme.breakpoints.down("xs")]: {
       height: "5.5em",
+      width: "5.5rem",
     },
   },
   logoContainer: {
