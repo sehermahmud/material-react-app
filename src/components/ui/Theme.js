@@ -26,8 +26,8 @@ export default createMuiTheme({
     estimate: {
       fontFamily: "Merienda One",
       fontSize: "1rem",
-			textTransform: "none",
-			color: "white"
+      textTransform: "none",
+      color: "white",
     },
   },
 });
