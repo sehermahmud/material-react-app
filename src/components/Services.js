@@ -143,12 +143,12 @@ export default function Services(props) {
             </Typography>
             <Button
               component={Link}
-              to="/customsoftware"
+              to="/customsofware"
               variant="outlined"
               className={classes.learnButton}
               onClick={() => {
                 props.setValue(1);
-                props.setSelectedIndex(1);
+                props.setSelectedIndex(2);
               }}
             >
               <span style={{ marginRight: 10 }}>Learn More</span>
