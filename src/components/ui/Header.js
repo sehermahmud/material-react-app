@@ -45,15 +45,15 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   logo: {
-    height: "8em",
-    width: "8rem",
+    height: "7em",
+    width: "7rem",
     [theme.breakpoints.down("md")]: {
-      height: "7em",
-      width: "7rem",
+      height: "6em",
+      width: "6rem",
     },
     [theme.breakpoints.down("xs")]: {
-      height: "5.5em",
-      width: "5.5rem",
+      height: "4em",
+      width: "4rem",
     },
   },
   logoContainer: {
@@ -76,6 +76,9 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: "50px",
     marginRight: "25px",
     height: "45px",
+    "&:hover": {
+      backgroundColor: theme.palette.primary.light
+    }
   },
   menu: {
     backgroundColor: theme.palette.common.redPink,
@@ -159,7 +162,7 @@ export default function Header(props) {
       selectedIndex: 1,
     },
     {
-      name: "Mobile App Development",
+      name: "iOS/Android App Development",
       link: "/mobileapps",
       activeIndex: 1,
       selectedIndex: 2,
@@ -229,7 +232,14 @@ export default function Header(props) {
           />
         ))}
       </Tabs>
-      <Button variant="contained" color="primary" className={classes.button}>
+      <Button
+        component={Link}
+        to="/estimate"
+        variant="contained"
+        color="primary"
+        className={classes.button}
+        onClick={() => props.setValue(5)}
+      >
         Free Estimate
       </Button>
       <Menu
