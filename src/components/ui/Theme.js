@@ -34,29 +34,34 @@ export default createMuiTheme({
       fontWeight: 700,
       fontSize: "2.5rem",
       color: arcRedPink,
-      lineHeight: 1.5
+      lineHeight: 1.5,
     },
     h3: {
       fontFamily: "Pacifico",
       fontSize: "2.5rem",
-      color: arcRedPink
+      color: arcRedPink,
     },
     h4: {
       fontFamily: "Raleway",
       fontSize: "1.75rem",
       color: arcRedPink,
-      fontWeight: 700
+      fontWeight: 700,
     },
     subtitle1: {
       fontSize: "1.2rem",
       fontWeight: 300,
-      color: arcBlue
+      color: arcBlue,
     },
     subtitle2: {
       color: "white",
       fontSize: "1.25rem",
-      fontWeight: 300
+      fontWeight: 300,
     },
+    body1: {
+      fontSize: "1.25rem",
+      color: arcBlue,
+      fontWeight: 300,
+    }, 
     learnButton: {
       borderColor: arcRedPink,
       borderWidth: 2,
@@ -64,7 +69,7 @@ export default createMuiTheme({
       color: arcRedPink,
       borderRadius: 50,
       fontFamily: "Kalam",
-      fontWeight: "bold"
-    }
+      fontWeight: "bold",
+    },
   },
 });

@@ -217,7 +217,7 @@ export default function LandingPage(props) {
             </Typography>
             <Button
               component={Link}
-              to="/customsoftware"
+              to="/customsofware"
               variant="outlined"
               className={classes.learnButton}
               onClick={() => {
