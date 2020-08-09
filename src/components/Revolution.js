@@ -16,7 +16,7 @@ import maintain from "../assets/maintainIcon.svg";
 import iterate from "../assets/iterateIcon.svg";
 import technologyAnimation from "../animations/technologyAnimation/data.json";
 
-import CallToAction from "./ui/CallToAction";
+// import CallToAction from "./ui/CallToAction";
 
 const useStyles = makeStyles(theme => ({
   rowContainer: {

@@ -61,7 +61,12 @@ export default createMuiTheme({
       fontSize: "1.25rem",
       color: arcBlue,
       fontWeight: 300,
-    }, 
+    },
+    caption: {
+      fontSize: "1rem",
+      fontWeight: 300,
+      color: arcRedPink,
+    },
     learnButton: {
       borderColor: arcRedPink,
       borderWidth: 2,
@@ -70,6 +75,28 @@ export default createMuiTheme({
       borderRadius: 50,
       fontFamily: "Kalam",
       fontWeight: "bold",
+    },
+  },
+  overrides: {
+    MuiInputLabel: {
+      root: {
+        color: arcRedPink,
+        fontSize: "1rem",
+      },
+    },
+    MuiInput: {
+      root: {
+        color: arcRedPink,
+        fontWeight: 300,
+      },
+      underline: {
+        "&:before": {
+          borderBottom: `2px solid ${arcRedPink}`,
+        },
+        "&:hover:not($disabled):not($focused):not($error):before": {
+          borderBottom: `2px solid ${arcRedPink}`,
+        },
+      },
     },
   },
 });

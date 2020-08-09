@@ -45,15 +45,15 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   logo: {
-    height: "7em",
-    width: "7rem",
+    height: "8em",
+    width: "8rem",
     [theme.breakpoints.down("md")]: {
-      height: "6em",
-      width: "6rem",
+      height: "7em",
+      width: "7rem",
     },
     [theme.breakpoints.down("xs")]: {
-      height: "4em",
-      width: "4rem",
+      height: "5.5em",
+      width: "5.5rem",
     },
   },
   logoContainer: {
