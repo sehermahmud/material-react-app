@@ -1,0 +1,48 @@
+[debug] [2020-08-09T13:48:06.905Z] ----------------------------------------------------------------------
+[debug] [2020-08-09T13:48:06.909Z] Command:       /usr/local/bin/firebase /Users/sehermahmud/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase functions:config:set user.email=noreply.seherdevelopment.com
+[debug] [2020-08-09T13:48:06.909Z] CLI Version:   8.4.3
+[debug] [2020-08-09T13:48:06.909Z] Platform:      darwin
+[debug] [2020-08-09T13:48:06.909Z] Node Version:  v12.16.1
+[debug] [2020-08-09T13:48:06.918Z] Time:          Sun Aug 09 2020 19:48:06 GMT+0600 (Bangladesh Standard Time)
+[debug] [2020-08-09T13:48:06.918Z] ----------------------------------------------------------------------
+[debug] [2020-08-09T13:48:06.918Z] 
+[debug] [2020-08-09T13:48:06.944Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-09T13:48:06.945Z] > authorizing via signed-in user
+[debug] [2020-08-09T13:48:06.949Z] [iam] checking project seher-development for permissions ["firebase.projects.get","runtimeconfig.configs.create","runtimeconfig.configs.delete","runtimeconfig.configs.get","runtimeconfig.configs.list","runtimeconfig.configs.update","runtimeconfig.variables.create","runtimeconfig.variables.delete","runtimeconfig.variables.get","runtimeconfig.variables.list","runtimeconfig.variables.update"]
+[debug] [2020-08-09T13:48:06.953Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/seher-development:testIamPermissions  
+ {"permissions":["firebase.projects.get","runtimeconfig.configs.create","runtimeconfig.configs.delete","runtimeconfig.configs.get","runtimeconfig.configs.list","runtimeconfig.configs.update","runtimeconfig.variables.create","runtimeconfig.variables.delete","runtimeconfig.variables.get","runtimeconfig.variables.list","runtimeconfig.variables.update"]}
+[debug] [2020-08-09T13:48:11.473Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 09 Aug 2020 13:48:10 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1006","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-09T13:48:11.476Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/seher-development/services/runtimeconfig.googleapis.com  
+ 
+[debug] [2020-08-09T13:48:27.728Z] Error: socket hang up
+    at connResetException (internal/errors.js:604:14)
+    at TLSSocket.socketOnEnd (_http_client.js:460:23)
+    at TLSSocket.emit (events.js:323:22)
+    at TLSSocket.EventEmitter.emit (domain.js:482:12)
+    at endReadableNT (_stream_readable.js:1204:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[error] 
+[error] Error: Server Error. socket hang up
+[debug] [2020-08-09T13:49:10.242Z] ----------------------------------------------------------------------
+[debug] [2020-08-09T13:49:10.250Z] Command:       /usr/local/bin/firebase /Users/sehermahmud/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase functions:config:set user.email=noreply.seherdevelopment.com
+[debug] [2020-08-09T13:49:10.251Z] CLI Version:   8.4.3
+[debug] [2020-08-09T13:49:10.251Z] Platform:      darwin
+[debug] [2020-08-09T13:49:10.251Z] Node Version:  v12.16.1
+[debug] [2020-08-09T13:49:10.280Z] Time:          Sun Aug 09 2020 19:49:10 GMT+0600 (Bangladesh Standard Time)
+[debug] [2020-08-09T13:49:10.280Z] ----------------------------------------------------------------------
+[debug] [2020-08-09T13:49:10.280Z] 
+[debug] [2020-08-09T13:49:10.314Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-09T13:49:10.315Z] > authorizing via signed-in user
+[debug] [2020-08-09T13:49:10.326Z] [iam] checking project seher-development for permissions ["firebase.projects.get","runtimeconfig.configs.create","runtimeconfig.configs.delete","runtimeconfig.configs.get","runtimeconfig.configs.list","runtimeconfig.configs.update","runtimeconfig.variables.create","runtimeconfig.variables.delete","runtimeconfig.variables.get","runtimeconfig.variables.list","runtimeconfig.variables.update"]
+[debug] [2020-08-09T13:49:10.339Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/seher-development:testIamPermissions  
+ {"permissions":["firebase.projects.get","runtimeconfig.configs.create","runtimeconfig.configs.delete","runtimeconfig.configs.get","runtimeconfig.configs.list","runtimeconfig.configs.update","runtimeconfig.variables.create","runtimeconfig.variables.delete","runtimeconfig.variables.get","runtimeconfig.variables.list","runtimeconfig.variables.update"]}
+[debug] [2020-08-09T13:49:13.496Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 09 Aug 2020 13:49:13 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=947","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-09T13:49:13.500Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/seher-development/services/runtimeconfig.googleapis.com  
+ 
+[debug] [2020-08-09T13:49:21.556Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 09 Aug 2020 13:49:18 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-09T13:49:21.566Z] >>> HTTP REQUEST GET https://runtimeconfig.googleapis.com/v1beta1/projects/seher-development/configs/user/variables/email  
+ 
+[debug] [2020-08-09T13:49:43.771Z] Error: read ECONNRESET
+    at TLSWrap.onStreamRead (internal/stream_base_commons.js:205:27)
+[error] 
+[error] Error: Server Error. read ECONNRESET
